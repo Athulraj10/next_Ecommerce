@@ -4,7 +4,7 @@ import LoginForm from '@/app/Components/loginForm/LoginForm'
 const Login = () => {
   return (
     <>
-        Login page
+        Login header
         <LoginForm/>
     </>
   )
