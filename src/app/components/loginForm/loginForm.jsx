@@ -8,7 +8,7 @@ const LoginForm = () => {
       {/* Left side - Image */}
       <div className="hidden md:block flex-none w-1/2">
         <div className="p-5 rounded" style={{margin:'34px', padding:'30px'}}>
-          <Image className="rounded w-auto" style={{ height: '800px' }} priority={false} src={loginImage} alt="Image" />
+          <Image className="rounded w-auto" style={{ height: '800px' }} priority="false" src={loginImage} alt="Image" />
         </div>
       </div>
       <div className="flex-auto">
@@ -24,6 +24,7 @@ const LoginForm = () => {
                 alt="logo"
                 width={50}
                 height={50}
+                property="false"
               />
               9x Cart
             </a>
