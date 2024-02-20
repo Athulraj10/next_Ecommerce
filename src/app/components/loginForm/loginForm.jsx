@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const loginForm = () => {
+const LoginForm = () => {
   return (
     <div>
       <section class="bg-gray-50 dark:bg-gray-900">
@@ -106,4 +106,4 @@ const loginForm = () => {
   );
 };
 
-export default loginForm;
+export default LoginForm;
