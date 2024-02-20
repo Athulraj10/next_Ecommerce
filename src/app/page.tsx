@@ -1,7 +1,8 @@
+import HomeContainer from '@/app/Components/HomePage/Home'
 export default function Home() {
   return (
     <main>
-      <h1>main page</h1>
+      <HomeContainer/>
     </main>
   );
 }
