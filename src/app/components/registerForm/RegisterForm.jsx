@@ -1,5 +1,5 @@
-'use client'
-import Form from './Form'
+"use client";
+import Form from "./Form";
 
 const registerPage = () => {
   return (
@@ -10,7 +10,17 @@ const registerPage = () => {
             <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               Create and account
             </h1>
-           <Form/>
+            <Form />
+
+            <p className="text-sm font-light text-gray-500 dark:text-gray-400">
+              Already have an account?
+              <a
+                href="/login"
+                className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+              >
+                Login here
+              </a>
+            </p>
           </div>
         </div>
       </div>
